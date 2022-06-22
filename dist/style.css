@@ -637,6 +637,10 @@ span {
   color: orange;
 }
 
+body {
+  color: white;
+}
+
 .hover\:border-white:hover {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
