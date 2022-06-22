@@ -4,7 +4,7 @@
 .header-image {
   /* The image used */
   background-image: url("/images/bkg-hero-header.jpg");
-  min-height: 600px;
+  min-height: 700px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -13,13 +13,12 @@
   position: relative;
 }
 
-ul li {
-  display: inline;
+.container {
+  text-align: right;
 }
 
-.container {
-  width: auto;
-  text-align: right;
+span {
+  color: orange;
 }
 
 /*# sourceMappingURL=style.css.map */
