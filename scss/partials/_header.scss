@@ -1,6 +1,13 @@
 
 $spanColor:orange;
-$colortitle : white;
+$colortitle : blue;
+
+
+
+header{
+    color:$colortitle;
+}
+
 
 .header-image {
     /* The image used */
@@ -16,17 +23,10 @@ $colortitle : white;
     position: relative;
   }
 
-
 .container {
     text-align: right;
   }
 
-
-
 span{
     color:$spanColor;
-}
-
-body{
-    color:white;
 }
