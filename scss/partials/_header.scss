@@ -1,0 +1,22 @@
+.header-image {
+    /* The image used */
+    background-image: url("/images/bkg-hero-header.jpg");
+    min-height: 600px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+
+ul li {
+    display: inline;
+  }
+.container {
+    
+    width: auto;
+    text-align: right;
+  }
