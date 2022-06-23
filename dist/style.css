@@ -790,7 +790,7 @@ nav ul li {
   padding: 12px 50px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
   font-size: 16px;
   margin-bottom: 45px;
 }
@@ -821,6 +821,25 @@ nav ul li {
 .container button {
   color: orange;
   margin-bottom: 30px;
+}
+
+.yellowBar {
+  /* The image used */
+  background-image: url("/images/bkg-counter.jpg");
+  min-height: 250px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+  color: white;
+}
+
+.grid-number {
+  display: inline-block;
+  padding-inline: 100px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
