@@ -157,6 +157,7 @@ nav ul li {
   background: white;
   color: grey;
   margin: 10px;
+  margin-bottom: 125px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -169,8 +170,9 @@ nav ul li {
   padding: 2px 16px;
 }
 
-.btnReadMore {
+.container button {
   color: orange;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

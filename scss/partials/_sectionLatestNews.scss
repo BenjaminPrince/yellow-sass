@@ -25,8 +25,9 @@ $bgLatestNews: rgb(34, 47, 54);
     background: white;
     color:grey;
     margin: 10px;
+    margin-bottom: 125px;
   }
-  
+
   /* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -37,6 +38,8 @@ $bgLatestNews: rgb(34, 47, 54);
     padding: 2px 16px;
   }
 
-.btnReadMore{
+
+.container button{
    color: orange;
+   margin-bottom: 30px;
 }
