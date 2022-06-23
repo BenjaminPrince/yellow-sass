@@ -1,18 +1,176 @@
-/* Error: expected "{".
- *   ,
- * 4 | $colortitle : black;
- *   |                    ^
- *   '
- *   scss\partials\_header.scss 4:20  @import
- *   scss\style.scss 6:9              root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 4 \2502  $colortitle : black;\d\a   \2502                     ^\a   \2575 \a   scss\\partials\\_header.scss 4:20  @import\a   scss\\style.scss 6:9              root stylesheet';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header-image {
+  /* The image used */
+  background-image: url("/images/bkg-hero-header.jpg");
+  min-height: 700px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+  color: white;
 }
+
+.header-image h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.header-image h1 span {
+  color: orange;
+  font-size: 60px;
+}
+
+.header-image p {
+  text-align: center;
+  margin: 20px;
+}
+
+section {
+  color: rgb(84, 84, 84);
+  text-align: center;
+}
+
+section h1 {
+  font-size: 60px;
+  padding-top: 50px;
+}
+
+section p {
+  padding-bottom: 100px;
+}
+
+.projet {
+  background: rgb(248, 248, 248);
+  margin: 0;
+}
+
+.img {
+  @apply grid grid-cols-4;
+}
+
+nav {
+  @apply flex flex-row items-center justify-around py-10 px-14 text-white;
+}
+nav img {
+  @apply flex justify-center w-40;
+}
+nav ul {
+  @apply flex;
+}
+nav ul li {
+  @apply px-3;
+}
+
+.btn-white {
+  @apply m-6 bg-transparent hover:bg-white text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-white rounded inline-block align-middle;
+}
+
+.btn-yellow {
+  @apply m-6 bg-yellow-500  hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.img-testimonial {
+  /* The image used */
+  background-image: url("/images/bkg-testimonial.jpg");
+  min-height: 700px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+  color: white;
+}
+
+.img-testimonial {
+  padding-bottom: 30px;
+}
+
+.img-testimonial img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.img-testimonial p {
+  border-style: solid;
+  background-color: #523c6c;
+  align-items: center;
+  padding: 40px;
+  margin: 60px;
+}
+
+.grid-container {
+  display: inline-flex;
+}
+
+.grid-container h2 {
+  font-size: 25px;
+}
+
+.grid-container p {
+  padding: 30px;
+  text-align: center;
+}
+
+.web-design h2 {
+  color: salmon;
+}
+
+.web-dev h2 {
+  color: orange;
+}
+
+.SEO h2 {
+  color: purple;
+}
+
+.bgLatestNews {
+  background: rgb(34, 47, 54);
+  color: white;
+}
+
+.btnBlog {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 12px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 45px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flow-root;
+  background: white;
+  color: grey;
+  margin: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.btnReadMore {
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */

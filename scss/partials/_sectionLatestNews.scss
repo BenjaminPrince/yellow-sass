@@ -1,0 +1,42 @@
+$bgLatestNews: rgb(34, 47, 54);
+
+.bgLatestNews{
+    background:$bgLatestNews ;
+    color:white;
+}
+
+.btnBlog {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flow-root;
+    background: white;
+    color:grey;
+    margin: 10px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+  }
+
+.btnReadMore{
+   color: orange;
+}

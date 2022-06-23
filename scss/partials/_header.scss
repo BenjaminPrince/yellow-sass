@@ -1,20 +1,7 @@
-
-$spanColor:orange;
-<<<<<<< HEAD
-$colortitle : black;
+$spanColor: orange;
+$tittleColor : white;
 
 
-
-=======
-$colortitle :black;
-
-
-
-section{
-    color: black;
-}
-
->>>>>>> c0057320482cb4fadd10992a2df28d01dd7f88f1
 .header-image {
     /* The image used */
     background-image: url("/images/bkg-hero-header.jpg");
@@ -27,12 +14,31 @@ section{
   
     /* Needed to position the navbar */
     position: relative;
+    
+    color:$tittleColor;
   }
 
-.container {
-    text-align: right;
-  }
+
+.header-image h1{
+  
+   font-size:60px;
+   text-align: center;
+   margin-top: 70px;
+}
+
+.header-image h1 span{
+  color:$spanColor;
+  font-size:60px;
+
+}
+
+.header-image p {
+  text-align: center;
+  margin:20px
+} 
+
 
 span{
-    color:$spanColor;
+    
 }
+

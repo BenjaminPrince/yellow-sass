@@ -1,0 +1,29 @@
+$webDesign:salmon;
+$webDev:orange;
+$SeoAnalisys:purple;
+
+.grid-container {
+    display: inline-flex;
+  }
+
+
+  .grid-container h2{
+    font-size: 25px
+  }
+
+.grid-container p {
+    padding: 30px;
+    text-align: center;
+  }
+
+.web-design h2{
+    color:$webDesign;
+}
+
+.web-dev h2{
+    color:$webDev;
+}
+
+.SEO h2{
+    color:$SeoAnalisys;
+}

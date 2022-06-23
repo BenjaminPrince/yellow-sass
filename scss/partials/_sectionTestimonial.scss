@@ -1,0 +1,39 @@
+.img-testimonial{
+ /* The image used */
+ background-image: url("/images/bkg-testimonial.jpg");
+ min-height: 700px;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ /* Needed to position the navbar */
+ position: relative;
+ 
+ color:$tittleColor;
+}
+
+.img-testimonial{
+    padding-bottom: 30px;
+
+}
+
+
+.img-testimonial img{
+    border-radius:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    
+}
+
+
+.img-testimonial p{
+    border-style: solid ;
+    background-color: #523c6c;
+    align-items: center;
+    padding:40px;
+    margin:60px;
+}
