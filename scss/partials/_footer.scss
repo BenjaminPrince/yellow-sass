@@ -1,0 +1,32 @@
+footer {
+    background: black;
+    color: white; 
+    text-align: center;
+
+    div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul{
+        padding: 100px;
+    }
+
+    li {
+        display: flex;
+        flex-direction: row;
+        margin:20px;
+    }
+
+    h1{
+        font-size: 34px;
+      
+    }
+    
+    p{
+        text-align: center;
+    }
+}
+
+
+   

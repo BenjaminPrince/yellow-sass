@@ -3,27 +3,40 @@ $webDev:orange;
 $SeoAnalisys:purple;
 
 .grid-container {
-    display: inline-flex;
-  }
+  display: inline-flex;
+}
 
 
-  .grid-container h2{
-    font-size: 25px
-  }
+.grid-container h2 {
+  font-size: 25px
+}
 
 .grid-container p {
-    padding: 30px;
-    text-align: center;
-  }
-
-.web-design h2{
-    color:$webDesign;
+  padding: 30px;
+  text-align: center;
 }
 
-.web-dev h2{
-    color:$webDev;
+.web-design h2 {
+  color: $webDesign;
 }
 
-.SEO h2{
-    color:$SeoAnalisys;
+.web-dev h2 {
+  color: $webDev;
+}
+
+.SEO {
+  color: $SeoAnalisys;
+}
+
+
+.web-design i {
+  color: $webDesign;
+}
+
+.web-dev i {
+  color: $webDev;
+}
+
+.SEO i {
+  color: $SeoAnalisys;
 }

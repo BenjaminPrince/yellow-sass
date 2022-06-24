@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 @import "partials/header";
 @import "partials/section";
 @import "partials/navbar";
@@ -11,3 +12,15 @@
 @import "partials/sectionServices";
 @import "partials/sectionLatestNews";
 @import "partials/sectionBarreYellow";
+@import "partials/contact";
+@import "partials/footer";
+@import "partials/responsive";
+
+
+// -------------------------------------
+// // font family
+// -------------------------------------
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
